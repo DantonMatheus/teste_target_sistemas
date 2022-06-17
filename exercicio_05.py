@@ -6,4 +6,4 @@ preferência ou pode ser previamente definida no código;
 b) Evite usar funções prontas, como, por exemplo, reverse;'''
 
 word = str(input('Digite uma palavra: '))
-print(word[::-1])
+print(f'A palavra {word} ao contrário, fica: {word[::-1]}')
